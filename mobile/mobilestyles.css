@@ -1,0 +1,278 @@
+html{
+	color:#000000;
+	min-width:300px;
+	}
+body{
+	margin:0;
+	padding:0;
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+	}
+li {
+	font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;	font-style:normal;
+	margin:10px 0 10px 15px;
+	list-style:none;
+}
+li a {
+	font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;	font-style:normal;
+	font-size:26px;
+	font-weight:normal;
+	text-decoration:none;
+	color:#000;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+li a:hover {
+	font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;	font-style:normal;
+	font-size:26px;
+	color:#521d52;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	}
+	
+fieldset{
+	border:0;
+	}
+	
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{
+	font-style:inherit;
+	font-weight:inherit;
+	}
+	
+del,ins{
+	text-decoration:none;
+	}
+	
+caption,th{
+	text-align:left;
+	}
+	
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+	font-variant:normal;
+	}
+	
+q:before,q:after{
+	content:'';
+	}
+	
+abbr,acronym{
+	border:0;
+	font-variant:normal;
+	}
+	
+sup{
+	vertical-align:baseline;
+	}
+	
+sub{
+	vertical-align:baseline;
+	}
+	
+legend{
+	color:#000000;
+	}
+	
+input,button,textarea,select,optgroup,option{
+	font-family:inherit;
+	font-size:inherit;
+	font-style:inherit;
+	font-weight:inherit;
+	}
+	
+input,button,textarea,select{
+	font-size:100%;
+	}
+img {
+	border:0;
+	width:100%;
+}
+h1{
+	font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;	font-style:normal;
+	color:#ffffff;
+	font-size:30px;
+	padding-left:10px;
+	float:left;
+}
+h2{
+	margin:15px 0;
+	font-size:19px;
+	font-weight:bold;
+	color:#521d52;
+	font-family:'Droid Serif', serif;
+	padding-left:10px;
+}
+h3{
+	font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;	font-style:normal;
+	font-size:12px;
+	margin-top:15px;
+	color:#ae0010;
+	padding-left:10px;
+}
+p{
+	font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	margin:9px 0;
+	padding-left:10px;
+	color:#555;
+}
+a{
+	text-decoration:underline;
+	color:#521d52;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+a:hover{
+	color:#555;
+}
+
+/*
+	Some "Mobile" styles
+	And other general styles
+*/
+
+.head{
+	background:#7d5745;
+	padding:15px 0;
+	height:40px;
+}
+.head img{
+	float:right;
+	width:35px;
+	margin-right:10px;
+	border-radius:2px;
+}
+div#contentDivImg {
+	width:250px;
+	background:#f7e7ce;
+	float:right;
+	position:absolute;
+	top:50px;
+	right:50px;
+	border-radius:5px;
+}
+span.arrow {
+	float:right;
+	margin-right:10px;
+}
+.pg{
+	margin:0 auto;
+	background:#fff;
+	max-width:700px;
+}
+.pg-main{
+	background:#ffffff;
+}
+.entries{
+
+} 
+.entries img {
+	width:100px;
+	padding-left:10px;
+}
+.entries div{
+	padding:10px 0;
+}
+.entries img.rss{
+	float:right;
+}
+.entries img.gallery {
+	margin:0;
+	padding:0;
+	width:100%;
+	border:0;
+}
+.entries img.registry {
+	margin-top:10px;
+	padding:0;
+	width:200px;
+	border:0;
+}
+.champ {
+	width:100%;
+	background:#f7e7ce;
+}
+.foot{
+	margin:0 auto;
+	padding:1px 10px;
+	background:#7d5745;
+	color:#ffffff;
+}
+.foot p {
+	color:#fff;
+	padding:0;
+	font-size:12px;
+}
+.foot a{
+	color:#fff;
+	font-size:12px;
+}
+
+/* RSVP form */
+div#rsvpform {
+	margin:auto;
+	width:95%;
+	height:450px;
+	background:#f3ddf3;
+	border:3px solid #521d52;
+	border-radius:20px;
+}
+#contact-area {
+	margin:auto;
+	padding-top:10px;
+	width:300px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding:5px;
+	width:285px;
+	margin:0px 0px 10px 0px;
+	border:2px solid #ccc;
+}
+
+#contact-area textarea {
+	height:90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border:2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width:100px;
+	float:right;
+	color:#fff;
+	background:#521d52;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+}
+
+label.contact {
+	float:left;
+	text-align:left;
+	margin-right:15px;
+	width:200px;
+	padding-top:5px;
+	font-size:1.4em;
+	font-family:'Open Sans', sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:15px;
+	color:#555;
+}
+/* End RSVP form */

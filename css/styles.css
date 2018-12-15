@@ -1,0 +1,695 @@
+html, body {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+h1 {
+	font-family:'Open Sans' !important;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	margin:0;
+	padding:0;
+}
+h2 {
+	font-family:'Open Sans' !important;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:28px;
+	margin-bottom:10px;
+}
+h3 {
+	font-family:'Open Sans' !important;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:22px;
+}
+h4 {
+	font-family:'Open Sans' !important;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:17px;
+	text-decoration:underline;
+}
+h5 {
+	font-family:'Open Sans' !important;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:15px;
+	text-decoration:underline;
+}
+li {
+	font-family:'Open Sans', sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:14px;
+	color:#555;
+}
+p {
+	font-family:'Open Sans', sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	color:#555;
+}
+p.estates {
+	color:#52a0d4;
+}
+p.medium {
+	font-size:14px;
+}
+p.small {
+	font-size:12px;
+}
+a {
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 300;
+	color:#151B8D;
+	text-decoration:none;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+a:hover {
+	color:#555;
+}
+a.programs p {
+	font-family: 'Open Sans', sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:15px;
+	color:#151B8D;
+	text-decoration:underline;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+a.programs:hover p {
+	color:#555;
+}
+a.blue_button {
+	padding:5px;
+	background:#b5daff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	-moz-box-shadow:1px 1px 1px 1px #ccc;
+	-webkit-box-shadow:1px 1px 1px 1px #ccc;
+	box-shadow:0px 1px 0px 1px #ccc;
+	font-size:17px;
+	font-style:normal;
+	text-decoration:underline;
+}
+a.blue_button_right {
+	padding:5px;
+	background:#b5daff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	-moz-box-shadow:1px 1px 1px 1px #ccc;
+	-webkit-box-shadow:1px 1px 1px 1px #ccc;
+	box-shadow:0px 1px 0px 1px #ccc;
+	font-size:17px;
+	font-style:normal;
+	text-decoration:underline;
+	float:right;
+}
+a.link {
+	color:#000;
+}
+hr {
+	margin-top:0;
+	padding:0;
+	height:3px;
+	width:90%;
+	clear:both;
+	border:0;
+	color:#000061;
+	background-color:#000061;
+}
+hr.hundred {
+	width:100%;
+}
+hr.seven {
+	width:71%;
+}
+hr.estates {
+	width:100%;
+	position:relative;
+	top:-25px;
+}
+img.properties {
+	border:3px solid #c3b493;
+}
+img.estates {
+	margin-top:25px;
+	width:300px;	
+}
+img.emp_page {
+	width:225px;
+}
+img.emp_page_large {
+	width:600px;
+	float:right;
+}
+span.gray {
+	color:#444;
+	font-style:italic;
+}
+span.blue {
+	color:#000061;
+	font-style:italic;
+}
+span.strong {
+	font-weight:900;
+	color:#000;
+}
+div.white_space {
+	width:100%;
+	background:transparent;
+	border:0;
+	clear:both;
+}
+
+div#head {
+	margin:0;
+	padding:0;
+	width:100%;
+	background:#000;
+}
+div#top_inner {
+	margin:auto;
+	padding:0;
+	width:950px;
+}
+div#top_inner h1 {
+	text-align:center;
+	color:#eadcbd;
+	font-size:40px;
+}
+div#top_inner img {
+	padding-top:10px;
+    display:block;	
+    margin:auto;
+}
+
+/* ----- Menu for regular website ----- */
+div#menu {
+	margin:auto;
+	padding:0;
+	width:369px;
+}
+div#menu p.menu_button {
+	display:inline-block;
+	margin-left:12px;
+}
+div#menu p.menu_button a {
+	font-family:'Open Sans', sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:15px;
+	color:#eadcbd;
+	text-decoration:none;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+div#menu p.menu_button a:hover {
+	color:#3e76ad;
+}
+div#menu p.menu_button a.current {
+	color:#3e76ad;
+}
+/* ----- end ----- */
+
+/* ----- Employee menu ----- */
+div#menu_emp {
+	margin:auto;
+	padding:0;
+	width:603px;
+}
+div#menu_emp p.menu_button {
+	display:inline-block;
+	margin-left:12px;
+}
+div#menu_emp p.menu_button a {
+	font-family:'Open Sans', sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:15px;
+	color:#eadcbd;
+	text-decoration:none;
+	 -o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+}
+div#menu_emp p.menu_button a:hover {
+	color:#3e76ad;
+}
+div#menu_emp p.menu_button a.current {
+	color:#3e76ad;
+}
+/* ----- end ----- */
+
+div#content {
+	margin:auto;
+	margin-top:20px;
+	width:950px;
+	background:#fff;
+}
+div#image {
+	margin:0 0 15px 0;
+	padding:0;
+	height:480px;
+	width:100%;
+	background:#eee;
+}	
+.slider{
+	width:950px;
+	position:relative;
+	padding-top:395px;
+	margin:auto;
+	box-shadow:0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+.slider>img{
+	position:absolute;
+	left:0; 
+	top:0;
+	transition: all 0.5s;
+}
+.slider input[name='slide_switch'] {
+	display: none;
+}
+.slider label {
+	margin:18px 0 0 18px;
+	border:3px solid #999;
+	float:left;
+	cursor:pointer;
+	transition: all 0.5s;
+	opacity:0.6;
+}
+.slider label img{
+	display:block;
+}
+.slider input[name='slide_switch']:checked+label {
+	border-color:#666;
+	opacity:1;
+}
+.slider input[name='slide_switch'] ~ img {
+	opacity:0;
+	transform: scale(1.1);
+}
+.slider input[name='slide_switch']:checked+label+img {
+	opacity:1;
+	transform: scale(1);
+}
+div#inner {
+	margin:0;
+	padding:0;
+	width:100%;
+	background:#fff;
+}
+div#employ {
+	margin:0;
+	float:left;
+	width:600px;
+}
+div#employ h2 {
+	margin:0;
+}
+div#weektip {
+	margin-bottom:15px;
+	width:300px;
+	float:right;
+	background:#b5daff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	-moz-box-shadow:1px 1px 1px 1px #ccc;
+	-webkit-box-shadow:1px 1px 1px 1px #ccc;
+	box-shadow:0px 1px 0px 1px #ccc;
+}
+div#weektip h3 {
+	margin:0 0 0 10px;
+}
+div#weektip p {
+	margin:10px;
+}
+div#newsletter {
+	margin:0;
+	padding:15px;
+	float:right;
+	background:#b5daff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	-moz-box-shadow:1px 1px 1px 1px #ccc;
+	-webkit-box-shadow:1px 1px 1px 1px #ccc;
+	box-shadow:0px 1px 0px 1px #ccc;
+	position:relative;
+	top:-100px;
+}
+div#newsletter a {
+	font-size:22px;
+	font-style:normal;
+	text-decoration:underline;
+}
+div#center {
+	margin:auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+	text-align:center;
+}
+div#emp_buttons {
+	margin-left:3px;
+	margin-top:12px;
+	position:relative;
+}
+div.emp_button {
+	margin-right:7px;
+	width:175px;
+	height:50px;
+	background:#285a8c;
+	background: -webkit-linear-gradient(#668BB0, #144A81); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#668BB0, #144A81); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#668BB0, #144A81); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#668BB0, #144A81); /* Standard syntax */
+	overflow:auto;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	display:inline-block;
+	border:2px solid #000;
+}
+div.emp_button:hover p.emp {
+	text-decoration:underline;
+}
+div.emp_button p.emp {
+	text-align:center;
+	color:#fff;
+}
+
+div#calendar {
+	margin-bottom:20px;
+}
+div#calendar iframe {
+	border:0;
+	width:100%;
+	height:600px;
+	frameborder:0;
+	scrolling:no;
+}
+
+div.hr {
+	width:100%;
+}
+div#left {
+	float:left;
+	width:625px;
+	background:none;
+}
+div#left_left {
+	float:left;
+	width:300px;
+}
+div#right {
+	margin-bottom:30px;
+	float:right;
+	width:300px;
+}
+div#right img.about {
+	float:right;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+div#left_contact {
+	float:left;
+	width:500px;
+}
+div#right_contact {
+	float:right;
+	width:400px;
+}
+div.floatleft {
+	float:left;
+	width:600px;
+}
+div.floatleft h2 {
+	margin:0;
+}
+div.floatright {
+	float:right;
+	width:300px;
+}
+div.floatright h3 {
+	margin:0;
+}
+div.sidebar {
+	margin-top:27px;
+	width:290px;
+	float:right;
+	border-left:3px double #000061;
+	background:none;
+}
+div.form {
+	margin-left:10px;
+	background:#b5daff;
+	overflow:auto;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	-moz-box-shadow:1px 1px 1px 1px #ccc;
+	-webkit-box-shadow:1px 1px 1px 1px #ccc;
+	box-shadow:0px 1px 0px 1px #ccc;
+}
+div.form h4 {
+	text-align:center;
+	text-decoration:none;
+	margin:7px 0px;
+}
+div.form p {
+	margin-left:10px;
+}
+div#note {
+	height:300px;
+	width:300px;
+	background:#99ccff;
+}
+div#note h3{
+	text-align:center;
+}
+div#announcements {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+div.event {
+	width:100%;
+	clear:both;
+}
+div.date {
+	margin:0 15px 0 0;
+	padding:0;
+	float:left;
+}
+div.date p {
+	margin-top:0;
+	padding:8px 25px;
+	text-align:center;
+	color:#fff;
+	background-color:#063564;
+}
+div.scrollTop {
+	margin:0 auto;
+	width:50px
+}
+div.scrollTop img {
+	width:50px;
+}
+div#footer {
+	height:100px;
+	width:100%;
+	background:#000;
+	clear:both;
+}
+div#innerfooter {
+	margin:auto;
+	width:950px;
+	background:#000;
+}
+div#footer p {
+	float:left;
+	padding-top:35px;
+	font-size:10px;
+	color:#999;
+}
+div#footer img {
+	margin:0;
+	padding:10px 0 0 10px;
+	width:80px;
+	float:right;
+}
+
+/* not my code */
+#contact-area {
+	width:300px;
+	margin-top:25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding:5px;
+	width:285px;
+	margin:0px 0px 10px 0px;
+	border:2px solid #ccc;
+}
+
+#contact-area textarea {
+	height:90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border:2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width:100px;
+	float:right;
+	color:#fff;
+	background:#285a8c;
+	background:-webkit-linear-gradient(#668BB0, #144A81); /* For Safari 5.1 to 6.0 */
+  	background:-o-linear-gradient(#668BB0, #144A81); /* For Opera 11.1 to 12.0 */
+  	background:-moz-linear-gradient(#668BB0, #144A81); /* For Firefox 3.6 to 15 */
+  	background:linear-gradient(#668BB0, #144A81); /* Standard syntax */
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+}
+
+label.contact {
+	float:left;
+	text-align:left;
+	margin-right:15px;
+	width:100px;
+	padding-top:5px;
+	font-size:1.4em;
+	font-family:'Open Sans', sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:15px;
+	color:#555;
+}
+
+/* Login Form */
+div#wrap {
+	margin:0 auto;
+	width:1000px;
+}
+div#login_head {
+	margin:0 auto;
+}
+div#login_head h1 {
+	text-align:center;
+}
+div#loginform {
+	margin:0 auto;
+	width:260px;
+	position:relative;
+}
+input.loginform {
+	float:right;
+}
+input.login_button {
+	top:85px;
+	right:25px;
+	position:absolute;
+	width:80px;
+	color:#fff;
+	background:#285a8c;
+	background: -webkit-linear-gradient(#668BB0, #144A81); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#668BB0, #144A81); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#668BB0, #144A81); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#668BB0, #144A81); /* Standard syntax */
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+}
+
+/* Leave request form */
+div#leaverequest {
+	width:300px;
+	margin-top:25px;
+}
+div#leaverequest p {
+	margin:0;
+	font-size:15px;
+}
+div#leaverequest input, div#leaverequest textarea {
+	padding:5px;
+	width:285px;
+	margin:0px 0px 10px 0px;
+	border:2px solid #ccc;
+}
+div#leaverequest textarea {
+	height:90px;
+}
+div#leaverequest textarea:focus, #contact-area input:focus {
+	border:2px solid #900;
+}
+div#leaverequest input.submit-button {
+	width:100px;
+	float:right;
+	color:#fff;
+	background:#285a8c;
+	background: -webkit-linear-gradient(#668BB0, #144A81); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#668BB0, #144A81); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#668BB0, #144A81); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#668BB0, #144A81); /* Standard syntax */
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+}
+label.leave {
+	float:left;
+	text-align:left;
+	margin-right:15px;
+	width:200px;
+	padding-top:5px;
+	font-size:1.4em;
+	font-family:'Open Sans', sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	font-size:15px;
+	color:#555;
+}
